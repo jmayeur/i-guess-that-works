@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 May 2024 15:21:05 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It Starts Here</title>
+      <link>http://localhost:1313/posts/it-starts-here/</link>
+      <pubDate>Fri, 17 May 2024 15:21:05 -0700</pubDate>
+      <guid>http://localhost:1313/posts/it-starts-here/</guid>
+      <description>What This exists mostly for me collect things as the fly by. I&amp;rsquo;m not particularly expert in anything, but I&amp;rsquo;ve come to truly enjoy a wide array of &amp;ldquo;huh-what-abouts&amp;rdquo; where I take the things I&amp;rsquo;ve seen before, and hone thme in new ways to fit the future. Maybe this is only useful for me, or perhaps something can be borrowed and applied forward. In either case it gives me another tool to spelunk through my memory for tibits I might be able to use going forward.</description>
+    </item>
+  </channel>
+</rss>
