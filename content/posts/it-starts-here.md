@@ -2,12 +2,11 @@
 author = 'Jeff Mayeur'
 title = 'It Starts Here'
 description = "A place to drop some notes on what I've learned"
-summary = '''This site exists mostly for me collect things as they fly by. I'm not particularly expert at anything, but I've come to truly enjoy a wide array of "huh; what abouts..." where I take the things I've seen before, hone them, and fit them into the future'''
 tags = ['Hugo', 'DSL']
 date = 2024-05-18T20:00:00-07:00
 draft = false
 +++
-## Hi, I'm Jeff
+# Hi, I'm Jeff
 
 ## What
 This site exists mostly for me collect things as they fly by. I'm not particularly expert at anything, but I've come to truly enjoy a wide array of "huh; what abouts..." where I take the things I've seen before, hone them, and fit them into the future. Maybe this will only be useful for me. Maybe there's something that can be borrowed and applied by others. In either case it gives me another tool to spelunk through my memory for tidbits I might want to repurpose.

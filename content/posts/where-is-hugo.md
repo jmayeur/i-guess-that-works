@@ -2,7 +2,7 @@
 author = 'Jeff Mayeur'
 title = 'Where Is Hugo'
 description = 'Being creative is the key to getting things done'
-summary = 'Why a TXT DNS Record is both necessary, and fun when it comes to using a custom domain name for this blog'
+summary = 'Why a TXT DNS Record is both necessary and fun when it comes to using a custom domain name for this blog'
 tags = ['Hugo', 'DSL', 'DNS', 'TXT Record', 'Azure Static Web Apps', 'Domain Registrar', 'Julia Evans', 'Markdown', 'Name Servers']
 date = 2024-05-19T09:00:00-07:00
 draft = false

@@ -17,7 +17,7 @@
       <description>
         
           
-            Why a TXT DNS Record is both necessary, and fun when it comes to using a custom domain name for this blog
+            Why a TXT DNS Record is both necessary and fun when it comes to using a custom domain name for this blog
           
           
         
@@ -33,7 +33,23 @@
       <description>
         
           
-            This site exists mostly for me collect things as they fly by. I&#39;m not particularly expert at anything, but I&#39;ve come to truly enjoy a wide array of &#34;huh; what abouts...&#34; where I take the things I&#39;ve seen before, hone them, and fit them into the future
+            Hi, I&amp;rsquo;m Jeff What This site exists mostly for me collect things as they fly by. I&amp;rsquo;m not particularly expert at anything, but I&amp;rsquo;ve come to truly enjoy a wide array of &amp;ldquo;huh; what abouts&amp;hellip;&amp;rdquo; where I take the things I&amp;rsquo;ve seen before, hone them, and fit them into the future. Maybe this will only be useful for me. Maybe there&amp;rsquo;s something that can be borrowed and applied by others. In either case it gives me another tool to spelunk through my memory for tidbits I might want to repurpose.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Summing it up</title>
+      <link>http://localhost:1313/posts/summing-it-up/</link>
+      <pubDate>Sat, 18 May 2024 20:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/summing-it-up/</guid>
+      <description>
+        
+          
+            Sum it up, and be quick. The Basics Go HTML Template - This is the basic language that is used to inject dynamic content and logic into an otherwise static HTML Document Hugo Templates - Hugo uses the Go HTML Template to structure the a site, from the home page, to sub pages, to navigation, all of the facets of a Huge Site are driven through these templates Hugo Clarity&amp;rsquo;s Excerpt - This is the template I&amp;rsquo;m interested in, it renders the &amp;ldquo;Summary&amp;rdquo; that shows up on the root of this blog.
           
           
         
