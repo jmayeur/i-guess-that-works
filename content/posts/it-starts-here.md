@@ -1,5 +1,8 @@
 +++
+author = 'Jeff Mayeur'
 title = 'It Starts Here'
+description = "A place to drop some notes on what I've learned"
+summary = '''This site exists mostly for me collect things as they fly by. I'm not particularly expert at anything, but I've come to truly enjoy a wide array of "huh; what abouts..." where I take the things I've seen before, hone them, and fit them into the future'''
 tags = ['Hugo', 'DSL']
 date = 2024-05-18T20:00:00-07:00
 draft = false
