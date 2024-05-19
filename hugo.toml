@@ -1,4 +1,4 @@
-baseURL = 'https://www.iguessthatworks.com/'
+baseURL = 'https://iguessthatworks.com/'
 languageCode = 'en-us'
 title = 'Working!'
 # theme = 'ananke'
