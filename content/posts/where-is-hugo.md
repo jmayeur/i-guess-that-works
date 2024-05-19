@@ -2,9 +2,8 @@
 title = 'Where Is Hugo'
 tags = ['Hugo', 'DSL', 'DNS', 'TXT Record', 'Azure Static Web Apps', 'Domain Registrar', 'Julia Evans', 'Markdown', 'Name Servers']
 date = 2024-05-18T20:00:00-07:00
-draft = false
+draft = true
 +++
-
 # It's Alive
 
 ## Hugo + Markdown

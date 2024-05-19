@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/azure-static-web-apps/</loc>
+    <loc>https://iguessthatworks.com/tags/azure-static-web-apps/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dns/</loc>
+    <loc>https://iguessthatworks.com/tags/dns/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/domain-registrar/</loc>
+    <loc>https://iguessthatworks.com/tags/domain-registrar/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dsl/</loc>
+    <loc>https://iguessthatworks.com/tags/dsl/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://iguessthatworks.com/tags/hugo/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/it-starts-here/</loc>
+    <loc>https://iguessthatworks.com/posts/it-starts-here/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/julia-evans/</loc>
+    <loc>https://iguessthatworks.com/tags/julia-evans/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://iguessthatworks.com/tags/markdown/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/name-servers/</loc>
+    <loc>https://iguessthatworks.com/tags/name-servers/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://iguessthatworks.com/posts/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://iguessthatworks.com/tags/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/txt-record/</loc>
+    <loc>https://iguessthatworks.com/tags/txt-record/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/where-is-hugo/</loc>
+    <loc>https://iguessthatworks.com/posts/where-is-hugo/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://iguessthatworks.com/</loc>
     <lastmod>2024-05-18T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://iguessthatworks.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://iguessthatworks.com/series/</loc>
   </url>
 </urlset>
