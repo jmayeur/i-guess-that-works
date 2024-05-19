@@ -1,14 +1,9 @@
 baseURL = 'https://iguessthatworks.com/'
 languageCode = 'en-us'
 title = 'Working!'
-[params]
-  subtitle =  '''I'm probably close'''
-  [params.contact]
-    email = 'jmayeur@gmail.com'
   
 paginate = 10
-theme = "hugo-texify3"
-# disqusShortname = ""
+theme = "hugo-clarity"
 
 copyright = "Jeff Mayeur"
 
