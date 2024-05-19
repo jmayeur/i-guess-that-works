@@ -82,5 +82,6 @@ Writing software is often repetitive, even with de-boilerplating tools like [Git
 
 While this was only a few minutes in the flow of creating this blog, it's definitely something I want to file away. Sometimes we need to look at the tools we have, and maybe at least for this case use that screwdriver as a hammer, despite what we were told by our elders.
 
-
-
+### QOTD
+“I have never let my schooling interfere with my education.”
+― Mark Twain
