@@ -1,6 +1,6 @@
-[submodule "hugo-clarity"]
-	path = hugo-clarity
-	url = https://github.com/chipzoller/hugo-clarity
 [submodule "themes/hugo-clarity"]
 	path = themes/hugo-clarity
 	url = https://github.com/chipzoller/hugo-clarity
+[submodule "themes/hugo-texify3"]
+	path = themes/hugo-texify3
+	url = https://github.com/michaelneuper/hugo-texify3.git

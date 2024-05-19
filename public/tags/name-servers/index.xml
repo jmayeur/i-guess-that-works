@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Name Servers on Working!</title>
-    <link>https://iguessthatworks.com/tags/name-servers/</link>
+    <link>http://localhost:1313/tags/name-servers/</link>
     <description>Recent content in Name Servers on Working!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 May 2024 20:00:00 -0700</lastBuildDate>
-    <atom:link href="https://iguessthatworks.com/tags/name-servers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/name-servers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where Is Hugo</title>
-      <link>https://iguessthatworks.com/posts/where-is-hugo/</link>
+      <link>http://localhost:1313/posts/where-is-hugo/</link>
       <pubDate>Sat, 18 May 2024 20:00:00 -0700</pubDate>
-      <guid>https://iguessthatworks.com/posts/where-is-hugo/</guid>
+      <guid>http://localhost:1313/posts/where-is-hugo/</guid>
       <description>It&amp;rsquo;s Alive Hugo + Markdown If you&amp;rsquo;ve spend much time in the programming space, Markdown. It&amp;rsquo;s a great lightweight approach to structuring a document. You can choose your own adventure when it comes to level of structure, and that lends itself nicely to the world of blogging. Because it&amp;rsquo;s essentially a template DSL, it&amp;rsquo;s relatively easy to go from MD &amp;ndash;&amp;gt; HTML. But I&amp;rsquo;m getting way ahead of myself, so let me back up.</description>
     </item>
   </channel>
