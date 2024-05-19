@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Jeff Mayeur</copyright>
-    <lastBuildDate>Sat, 18 May 2024 20:00:00 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 09:00:00 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Where Is Hugo</title>
+      <link>http://localhost:1313/posts/where-is-hugo/</link>
+      <pubDate>Sun, 19 May 2024 09:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/where-is-hugo/</guid>
+      <description>
+        
+          
+            It&amp;rsquo;s Alive Hugo + Markdown If you&amp;rsquo;ve spend much time in the programming space, Markdown. It&amp;rsquo;s a great lightweight approach to structuring a document. You can choose your own adventure when it comes to level of structure, and that lends itself nicely to the world of blogging. Because it&amp;rsquo;s essentially a template DSL, it&amp;rsquo;s relatively easy to go from MD &amp;ndash;&amp;gt; HTML. But I&amp;rsquo;m getting way ahead of myself, so let me back up.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>It Starts Here</title>
       <link>http://localhost:1313/posts/it-starts-here/</link>
@@ -18,22 +34,6 @@
         
           
             Hi, I&amp;rsquo;m Jeff What This site exists mostly for me collect things as they fly by. I&amp;rsquo;m not particularly expert at anything, but I&amp;rsquo;ve come to truly enjoy a wide array of &amp;ldquo;huh; what abouts&amp;hellip;&amp;rdquo; where I take the things I&amp;rsquo;ve seen before, hone them, and fit them into the future. Maybe this will only be useful for me. Maybe there&amp;rsquo;s something that can be borrowed and applied by others. In either case it gives me another tool to spelunk through my memory for tidbits I might want to repurpose.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Where Is Hugo</title>
-      <link>http://localhost:1313/posts/where-is-hugo/</link>
-      <pubDate>Sat, 18 May 2024 20:00:00 -0700</pubDate>
-      
-      <guid>http://localhost:1313/posts/where-is-hugo/</guid>
-      <description>
-        
-          
-            It&amp;rsquo;s Alive Hugo + Markdown If you&amp;rsquo;ve spend much time in the programming space, Markdown. It&amp;rsquo;s a great lightweight approach to structuring a document. You can choose your own adventure when it comes to level of structure, and that lends itself nicely to the world of blogging. Because it&amp;rsquo;s essentially a template DSL, it&amp;rsquo;s relatively easy to go from MD &amp;ndash;&amp;gt; HTML. But I&amp;rsquo;m getting way ahead of myself, so let me back up.
           
           
         

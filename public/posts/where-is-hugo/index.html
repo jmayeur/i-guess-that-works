@@ -100,8 +100,8 @@
 </svg>
 </span>
     <span class="post_date">
-      May 18, 2024</span>
-    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='http://localhost:1313/tags/hugo/' title="Hugo" class="post_tag button button_translucent">Hugo
+      May 19, 2024</span>
+    <span class="post_time"> · 5 min read</span><span>&nbsp;· <a href='http://localhost:1313/tags/hugo/' title="Hugo" class="post_tag button button_translucent">Hugo
         </a><a href='http://localhost:1313/tags/dsl/' title="DSL" class="post_tag button button_translucent">DSL
         </a><a href='http://localhost:1313/tags/dns/' title="DNS" class="post_tag button button_translucent">DNS
         </a><a href='http://localhost:1313/tags/txt-record/' title="TXT Record" class="post_tag button button_translucent">TXT Record
@@ -151,18 +151,83 @@
 <h2 id="hugo--markdown">Hugo + Markdown</h2>
 <p>If you&rsquo;ve spend much time in the programming space, <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>. It&rsquo;s a great lightweight approach to structuring a document. You can choose your own adventure when it comes to level of structure, and that lends itself nicely to the world of blogging. Because it&rsquo;s essentially a template <a href="https://martinfowler.com/dsl.html">DSL</a>, it&rsquo;s relatively easy to go from MD &ndash;&gt; HTML. But I&rsquo;m getting way ahead of myself, so let me back up.</p>
 <h2 id="how-did-you-get-here">How Did You Get Here?</h2>
-<p>If the answer is &ldquo;&hellip;entered <a href="https://iguessthatworks.com">https://iguessthatworks.com</a> in the browser&hellip;&rdquo; you&rsquo;re as correct as you need to be. But, I still had questions about this magical flow. I can&rsquo;t recommend Julia Evans <a href="https://jvns.ca/blog/2022/04/26/new-zine--how-dns-works-/">How DNS Works</a> zine, or for that matter anything that&rsquo;s been <a href="https://jvns.ca">posted</a> by Julia. But there was something even more interesting to me about how this <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a> goes from some server in Azure to a browser.</p>
+<p>If the answer is &ldquo;&hellip;entered <a href="https://iguessthatworks.com">https://iguessthatworks.com</a> in the browser&hellip;&rdquo; you&rsquo;re as correct as you need to be. But, I still had questions about this magical flow. I highly recommend Julia Evans&rsquo; <a href="https://jvns.ca/blog/2022/04/26/new-zine--how-dns-works-/">How DNS Works</a> zine, or for that matter anything that&rsquo;s been <a href="https://jvns.ca">posted</a> by Julia. But there was something even more interesting to me about how this <a href="https://azure.microsoft.com/en-us/products/app-service/static">Azure Static Web App</a> goes from some server in Azure to a browser.</p>
 <p>It will take a few rambling posts to get there, but this one will cover a bit of the magic behind a <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> DNS Record.</p>
 <h3 id="key-pieces">Key Pieces</h3>
 <ul>
-<li>Domain Registrar</li>
-<li>Name Servers</li>
-<li>DNS Records</li>
-<li>Truck sized -well-I-guess-we-cans-</li>
-<li>DIG</li>
+<li><a href="https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/">Domain Registrar</a></li>
 </ul>
+<blockquote>
+<p>Used to register and manage a Domain. In this case I&rsquo;ve registered iguessthisworks.com allowing the management of DNS Records for it</p>
+</blockquote>
+<ul>
+<li><a href="https://www.cloudflare.com/learning/dns/dns-records/">DNS Records</a></li>
+</ul>
+<blockquote>
+<p>A table of data about a Domain, including details such as where to look for iguessthisworks.com</p>
+</blockquote>
+<ul>
+<li><a href="https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/">(NS) Nameserver Records</a></li>
+</ul>
+<blockquote>
+<p>Used to lookup who is the authoritative keeper of where to find the pot of gold at the end of the iguessthisworks.com</p>
+</blockquote>
+<ul>
+<li>Truck sized -well-I-guess-we-can-</li>
+</ul>
+<blockquote>
+<p>The <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> DNS Record is a way to associate a block of text with a Domain. Originally designed to be read by humans, it&rsquo;s become a way to perform a secret handshake between a <a href="https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/">Domain Registrar</a> and a <a href="https://azure.microsoft.com/en-us/products/app-service/static">Host</a></p>
+</blockquote>
 <h2 id="welcome">Welcome</h2>
-<p>The key</p>
+<p>The key here is the <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> DNS Record, but there are a few precursors I&rsquo;ll try to cover in other posts including:</p>
+<ul>
+<li>Walking through setting up a basic (<a href="https://gohugo.io/getting-started/quick-start/">Hugo</a>) site</li>
+<li>Writing the first <a href="https://iguessthatworks.com/posts/it-starts-here/">post</a></li>
+<li>Updating to use the <a href="https://themes.gohugo.io/themes/hugo-clarity/">Clarity Theme</a></li>
+<li>Creating an <a href="https://learn.microsoft.com/en-us/azure/static-web-apps/get-started-portal?tabs=vanilla-javascript&amp;pivots=github">Azure Static Web App</a> to create a <a href="https://www.seifbassem.com/blogs/unboxing/azure-static-webapps-blog/">blog</a></li>
+<li><a href="https://www.godaddy.com">Registering</a> a Domain</li>
+</ul>
+<p>That&rsquo;s a whole lot of things, and there&rsquo;s quite a few steps in each part, but I&rsquo;m jumping ahead a bit to the <a href="https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=root%2Cazurecli">Map an existing custom DNS name to Azure</a>. Specifically the <a href="https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=subdomain%2Cazurecli#3-validate-and-complete">Validate</a> part of the flow.</p>
+<p>I found this step deeply satisfying, as it&rsquo;s one of the many times where a technology/protocol/strategy/other capability has be repurposed for something likely more useful than it&rsquo;s original intent. Let&rsquo;s start by reading a few TXT records.</p>
+<p><a href="https://www.unix.com/man-page/hpux/1m/dig/">dig</a> is a very useful tool for looking up DNS information about a domain. From unwinding CNAME chains, to troubleshooting resolution issues, this is a great tool to <a href="https://jvns.ca/blog/2021/12/04/how-to-use-dig/">get familiar</a> with. We&rsquo;ll use it to read some <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> records for well known domains.  Let&rsquo;s start by looking at the command.
+<code>dig @1.1.1.1 +ignore +short +bufsize=1024 &lt;domain&gt; txt</code></p>
+<ul>
+<li><code>dig</code> - this is the command line tool we&rsquo;ll use</li>
+<li><code>@1.1.1.1</code> - this is a DNS server I want to ask about the txt record. This can be omitted and it will use the server configured for your network</li>
+<li><code>+ignore</code> - skip any cached data</li>
+<li><code>+short</code> - give me the good stuff only, just the record. This can be omitted, you&rsquo;ll just see additional details returned</li>
+<li><code>+bufsize=1024</code> - can help with longer messages. This can be omitted, you may get a truncated response, but that is unlikely</li>
+<li><code>&lt;domain&gt;</code> - which domain do I want to query about</li>
+<li><code>txt</code> - the record type to query. You can query other types like <code>a</code> or <code>cname</code> to see what you get</li>
+</ul>
+<h3 id="bing">Bing</h3>
+<pre tabindex="0"><code>&gt; dig @1.1.1.1 +ignore +short +bufsize=1024 bing.com txt
+&#34;facebook-domain-verification=09yg8uzcfnqnlqekzsbwjxyy8rdck7&#34;
+&#34;google-site-verification=OkRY8R261shK5B8uEwvsFZp9nQ2gRoHavGlruok1azc&#34;
+&#34;v=msv1 t=6097A7EA-53F7-4028-BA76-6869CB284C54&#34;
+&#34;v=spf1 include:spf.protection.outlook.com -all&#34;
+</code></pre><h3 id="google">Google</h3>
+<pre tabindex="0"><code>&gt; dig @1.1.1.1 +ignore +short +bufsize=1024 google.com txt
+&#34;globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=&#34;
+&#34;docusign=1b0a6754-49b1-4db5-8540-d2c12664b289&#34;
+&#34;google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o&#34;
+&#34;apple-domain-verification=30afIBcvSuDV2PLX&#34;
+&#34;v=spf1 include:_spf.google.com ~all&#34;
+&#34;onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef&#34;
+&#34;docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e&#34;
+&#34;google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ&#34;
+&#34;webexdomainverification.8YX6G=6e6922db-e3e6-4a36-904e-a805c28087fa&#34;
+&#34;facebook-domain-verification=22rm551cu4k0ab0bxs
+</code></pre><p>Okay, so that&rsquo;s neat, but why is that useful here. In this case I&rsquo;m using the <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> record to prove to Azure that I am the true owner of the domain.</p>
+<ul>
+<li>Azure provides me with a generated key</li>
+<li>I add that to a <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> record in the <a href="godaddy.com">GoDaddy</a> Domain Control Admin</li>
+<li>Azure reads the <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> record and verifies the data</li>
+<li>Azure allows me to point the iguessthatworks.com Domain to the static web app I&rsquo;ve already created</li>
+</ul>
+<p>It&rsquo;s this repurposing of a technology that allows technical hobbyists like myself stitch together the various pieces of creating a blog and finding a way to make it eas(ier) to find. In the many years I&rsquo;ve been playing at being a developer, it&rsquo;s this kind of innovative &ldquo;maybe if we just&hellip;&rdquo; type of solutions that bring me the most joy.</p>
+<p>Writing software is often repetitive, even with de-boilerplating tools like <a href="https://github.com/features/copilot">Github Copilot</a>, there is a lot of sameness across all of the projects you get to work on. Encountering a short-cut like this <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/">TXT</a> record approach, is like an inside joke, it makes me chuckle, and appreciate the way we&rsquo;re all just trying to make something work.</p>
+<p>While this was only a few minutes in the flow of creating this blog, it&rsquo;s definitely something I want to file away. Sometimes we need to look at the tools we have, and maybe at least for this case use that screwdriver as a hammer, despite what we were told by our elders.</p>
 
     </div>
 <div class="post_comments">
@@ -186,10 +251,10 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="http://localhost:1313/posts/it-starts-here/" class="nav-link" title="It Starts Here">It Starts Here</a>
+        <a href="http://localhost:1313/posts/where-is-hugo/" class="nav-link" title="Where Is Hugo">Where Is Hugo</a>
       </li>
       <li>
-        <a href="http://localhost:1313/posts/where-is-hugo/" class="nav-link" title="Where Is Hugo">Where Is Hugo</a>
+        <a href="http://localhost:1313/posts/it-starts-here/" class="nav-link" title="It Starts Here">It Starts Here</a>
       </li>
     </ul>
     <div>
