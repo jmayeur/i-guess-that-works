@@ -1,4 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.iguessthatworks.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'Working!'
+# theme = 'ananke'
+paginate = 10
+theme = "hugo-clarity"
+disqusShortname = ""
+
+copyright = "Jeff Mayeur"
+
+DefaultContentLanguage = "en"
+# [languages]
+# config/_default/languages.toml
+
+# [menus]
+# config/_default/menus/menu.xx.toml
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
