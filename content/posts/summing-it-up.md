@@ -63,7 +63,7 @@ Once again I needed to read the template, and think about what it was doing.  I 
  {{- $summary := ((delimit (findRE "(?s)(<p.*?>.*?</p>)" .Content) "[&hellip;] ") | plainify | truncate (default 200 $.Site.Params.summary_length) (default " &hellip;" $.Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
 ```
 
-![Summary of the first post - It Starts Here - after the update](/images/summing-it-up/summary_original.png)
+![Summary of the first post - It Starts Here - after the update](/images/summing-it-up/summary.png)
 
 ### Step Override
 Thankfully Hugo makes it pretty simple to [override a theme](https://bwaycer.github.io/hugo_tutorial.hugo/themes/customizing/).  I created a local `/layouts/partials/excerpt.html` and there you have it - a clean summary.
