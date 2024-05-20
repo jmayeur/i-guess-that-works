@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-05-20T20:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-05-20T20:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/dsl/</loc>
     <lastmod>2024-05-19T20:00:00-07:00</lastmod>
   </url><url>
@@ -14,9 +20,6 @@
     <loc>http://localhost:1313/tags/hugo-summaries/</loc>
     <lastmod>2024-05-19T20:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-05-19T20:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/summing-it-up/</loc>
     <lastmod>2024-05-19T20:00:00-07:00</lastmod>
   </url><url>
@@ -24,9 +27,6 @@
     <lastmod>2024-05-19T20:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/templates/</loc>
-    <lastmod>2024-05-19T20:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2024-05-19T20:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/azure-static-web-apps/</loc>
