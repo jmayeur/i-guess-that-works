@@ -66,7 +66,7 @@ Once again I needed to read the template, and think about what it was doing.  I 
 ![Summary of the first post - It Starts Here - after the update](/images/summing-it-up/summary_original.png)
 
 ### Step Override
-Thankfully Hugo makes it pretty simple to [override a theme](https://bwaycer.github.io/hugo_tutorial.hugo/themes/customizing/).  I created a local `/layouts/partials/excerpt.html` and there you have it - a clean sumamry.
+Thankfully Hugo makes it pretty simple to [override a theme](https://bwaycer.github.io/hugo_tutorial.hugo/themes/customizing/).  I created a local `/layouts/partials/excerpt.html` and there you have it - a clean summary.
 
 ## Wrap
 In this case it definitely helped to have some experience with templating, it let me walk the code a little easier, but really it's mostly about finding other examples, and just tinkering. There's a good chance, that what I've done isn't correct, but that's okay, I'm learning, and part of that process is just trying things. In this case most of what I tried didn't work. When I got stuck I read the code, thought about it, and came up with a new switch flip. So far I'm pretty happy with the outcome. 
