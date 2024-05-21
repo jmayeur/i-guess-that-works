@@ -4,6 +4,3 @@
 [submodule "themes/hugo-texify3"]
 	path = themes/hugo-texify3
 	url = https://github.com/michaelneuper/hugo-texify3.git
-[submodule "themes/zen"]
-	path = themes/zen
-	url = https://github.com/frjo/hugo-theme-zen.git
