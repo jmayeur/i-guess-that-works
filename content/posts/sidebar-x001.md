@@ -1,6 +1,6 @@
 +++
 author = 'Jeff Mayeur'
-title = 'Sidebar 00001 - On Learning'
+title = 'Sidebar x001 - On Learning'
 tags = ['Mistakes', 'Learning', 'Questions']
 date = 2024-05-20T20:00:00-07:00
 draft = false
