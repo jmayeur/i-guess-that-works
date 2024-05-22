@@ -39,3 +39,8 @@ That humbling had made me think about this little memory capture venture. [Was t
 ![Lighthouse Accessibility Score of 77](/images/a-small-change/accessibile.png)
 
 I'll be spending the next few posts seeing how I need to update the site's current [Clarity Hugo Theme](https://github.com/chipzoller/hugo-clarity/tree/master) with either a Fork, or overrides to get things right. Hopefully this will be a fun journey.
+
+
+### QOTD
+“There is nothing more deceptive than an obvious fact.”
+― Arthur Conan Doyle, The Boscombe Valley Mystery - a Sherlock Holmes Short Story

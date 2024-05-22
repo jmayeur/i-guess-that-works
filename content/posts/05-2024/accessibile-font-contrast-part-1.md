@@ -37,3 +37,7 @@ Better?
 ![Image with better font contrast](/images/accessibility-contrast/contrast-better.png)
 
 But, it doesn't have a [Color Contrast Ratio](https://webaim.org/resources/contrastchecker/) (CCR) of 4.5:1. The WebAIM calculator doesn't quite know what to to with these colors, but even just an quick glance would tell me I'm off. Not to mention I haven't even looked at the Dark Mode contrasts. I'll need to spend a little time thinking about this one. First reading a bit more about [color contrast](https://dequeuniversity.com/rules/axe/4.8/color-contrast) and then, since I only loosely understand [SASS](https://sass-lang.com), I'll need to spend a bit of time walking that tree
+
+### QOTD 
+“When you change the way you look at things, the things you look at change.”
+― Max Planck
