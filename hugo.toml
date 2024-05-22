@@ -29,3 +29,8 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
+
+codeMaxLines = 7
+
+[params.social]
+linkedin = "https://www.linkedin.com/in/jeff-mayeur/"
