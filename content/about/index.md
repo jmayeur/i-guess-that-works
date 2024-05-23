@@ -2,8 +2,8 @@
 author = 'Jeff Mayeur'
 title = 'About'
 description = "A bit about Me"
-date = 2024-05-23T20:00:00-07:00
-draft = true
+date = 2024-05-23T16:00:00-07:00
+draft = false
 +++
 
 ## Bio
@@ -36,6 +36,6 @@ draft = true
 - 20+ years developing professionally across the stack including but not limited to Java, C#, T-SQL, JavaScript and Python...
 - 30+ years of dabbling in dozens of technologies from Micro Processors, to Apple Basic, even Go for this project. 
 - 10+ years leading teams in a variety of capacities and environments.
-- Industries including Telecom, Health, Retail and Insurance
-- Roles include Developer, Lead, Architect, Principle, Distinguished, Manager and Director
+- Industries including Telecom, Health, Retail, Legal and Insurance
+- Roles including Developer, Lead, Architect, Principle, Distinguished, Manager and Director
 - Company sizes from 1 to 50K+
