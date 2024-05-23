@@ -11,8 +11,8 @@ draft = true
 
 ### What
 - Web, Data and General Purpose Software Development since the turn of the century.
-- Leader with an Engagement First, Collaboration Centered ethos.
-- Systems Intuitor, Operational and Technical Diagnostics Enthusiast; Driven to Learn and Grow as member of a team.
+- Leader with an Engagement First, Collaboration Centered Ethos.
+- Systems Intuitor, Operational and Technical Diagnostics Enthusiast; Driven to Learn and Grow as Member of a Team.
 
 ### How
 - Everything starts with reading. Read docs, people, environments, dashboards and slack threads. Read; and try my best to understand the underlying dynamics of everything. Software is hard, but it is impossible if you don't know what you really need to do.
