@@ -1,0 +1,3 @@
+<figure class="caption_center">
+    <img src="{{ .Get "src" }}" {{ if or (.Get "title") (.Get "alt") }} alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" }}{{ end }}"{{ end }} class="image_center" />
+</figure>
