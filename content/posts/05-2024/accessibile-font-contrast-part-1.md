@@ -3,7 +3,7 @@ author = 'Jeff Mayeur'
 title = 'Accessible Font Contrast Part 1'
 tags = ['Accessibility', 'color-contrast', 'WCAG 2.1 (AA)']
 date = 2024-05-22T17:00:00-07:00
-draft = true
+draft = false
 +++
 
 # Accessible Font Contrast Part 1
