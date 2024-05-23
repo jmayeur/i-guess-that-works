@@ -6,7 +6,7 @@ date = 2024-05-22T17:00:00-07:00
 draft = false
 +++
 
-# Accessible Font Contrast Part 1
+# Technicolor High-Contrast
 
 ## First the Why
 It's fair to assume that this set of blogs won't get much traffic. Sure I'll dink around with things like SEO, or cross posting on [Linkedin](https://www.linkedin.com/in/jeff-mayeur/), but there's too much content for this to get any eyeballs. So for me this goes back to an incident in pre-school.
