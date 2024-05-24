@@ -1,3 +1,5 @@
 <figure class="caption_center">
-    <img src="{{ .Get "src" }}" {{ if or (.Get "title") (.Get "alt") }} alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" }}{{ end }}"{{ end }} class="image_center" />
+    <picture>
+        <img src="{{ .Get "src" }}" {{ if or (.Get "title") (.Get "alt") }} alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "title" }}{{ end }}" title="{{ with .Get "title" }}{{ . }}{{ else }}{{ .Get "alt" }}{{ end }}"{{ end }} class="image_center" />
+    </picture>
 </figure>

@@ -22,7 +22,7 @@ There are a few examples like [this](https://github.com/jhogue/automated-a11y-sa
 Starting with this [contrast pallette tool](http://colorsafe.co) I find a few options using the following params. Font Size 12.5px Background color `$theme` (`#0077b8`). I also decided I wanted to up the font-weight. It was a little thin for my eyes, so I upped it to 900. Given those inputs, not many options were available. I opted to go with `#e0ffff` as it was still a little in the blue range. I am not a designer, and I should never have any meaningful control over a color pallette, but in this case I needed something that would pass an accessibility scan, so we had a winner.
 
 To get this to work I had to update the `&_translucent` definition to the following & we got close
-```
+```css
 &_translucent
     background-color: $theme
     color: #e0ffff
@@ -32,7 +32,7 @@ To get this to work I had to update the `&_translucent` definition to the follow
 ![Image with good font contrast, but the "count" region is not good enough](/images/accessibility-contrast/contrast-close.png)
 
 There was one last thing. I wanted to have the "counts" on the tags have a distinct background. I had to update the `&_tally` definition to
-```
+```css
 &_tally
     padding: 0 0.75rem
     border-radius: 0.5rem
