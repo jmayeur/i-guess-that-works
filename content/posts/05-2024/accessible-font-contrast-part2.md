@@ -29,7 +29,7 @@ To get this to work I had to update the `&_translucent` definition to the follow
     font-weight: 900
     border: 1px solid transparent
 ```
-![Image with good font contrast, but the "count" region is not good enough](/images/accessibility-contrast/contrast-close.png)
+![Image with good font contrast, but the count region is not good enough](/images/accessibility-contrast/contrast-close.png)
 
 There was one last thing. I wanted to have the "counts" on the tags have a distinct background. I had to update the `&_tally` definition to
 ```css
