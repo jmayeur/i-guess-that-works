@@ -9,7 +9,7 @@ draft = false
 # It's all about the Patches
 
 ## Themes, SASS and Transpilation
-[SASS](https://sass-lang.com) is a [DSL](https://martinfowler.com/dsl.html) that [transpiles](https://shadowsmith.com/thoughts/setting-up-a-sass-scss-transpiler) into CSS, I know they're everywhere. In this case there is a variable [$theme](https://github.com/chipzoller/hugo-clarity/blob/master/assets/sass/_variables.sass#L5) and an [rgba function](https://github.com/chipzoller/hugo-clarity/blob/master/assets/sass/_components.sass#L188C23-L188C41) that come together to transpile into a `button_translucent` css class. This class uses the `$theme` as the foreground color (font color) and an alpha translucent variant of the `$theme` as the background color for the non-accessible tag links.
+[SASS](https://sass-lang.com) is a [DSL](https://martinfowler.com/dsl.html) that [transpiles](https://shadowsmith.com/thoughts/setting-up-a-sass-scss-transpiler) into CSS. (DSLs really are everywhere.) In this case there is a variable [$theme](https://github.com/chipzoller/hugo-clarity/blob/master/assets/sass/_variables.sass#L5) and an [rgba function](https://github.com/chipzoller/hugo-clarity/blob/master/assets/sass/_components.sass#L188C23-L188C41) that come together to transpile into a `button_translucent` css class. This class uses the `$theme` as the foreground color (font color) and an alpha translucent variant of the `$theme` as the background color for the non-accessible tag links.
 
 I'm not going to go too deep into understand what SASS does at this point, but you can infer the final transpiled class name from the _components.sass file. Beneath the `.button` definition we find the the `&_translucent` definition. That will be transpiled into the `button_translucent` css class.
 
