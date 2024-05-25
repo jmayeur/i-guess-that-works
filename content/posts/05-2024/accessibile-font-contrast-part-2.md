@@ -6,6 +6,9 @@ date = 2024-05-23T16:00:00-07:00
 draft = false
 +++
 
+
+#### Continued from [Part 1](/posts/05-2024/accessibile-font-contrast-part-1/)
+
 # It's all about the Patches
 
 ## Themes, SASS and Transpilation
