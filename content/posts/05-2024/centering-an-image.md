@@ -1,7 +1,7 @@
 +++
 author = 'Jeff Mayeur'
 title = 'Centering an Image'
-tags = ['Accessibility', 'color-contrast', 'WCAG 2.1 (AA)']
+tags = ['Hugo', 'Templates', 'Debuilding']
 date = 2024-05-24T17:00:00-07:00
 summary="Learning how to center an image with Hugo."
 draft = false
