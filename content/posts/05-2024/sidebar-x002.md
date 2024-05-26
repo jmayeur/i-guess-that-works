@@ -1,6 +1,8 @@
 +++
 author = 'Jeff Mayeur'
 title = 'Sidebar x002 - Play'
+keywords = ['Play', 'Trust', 'Learning', 'Winning']
+description = 'Thoughts on playing, trusting and being a team member or leader that amplifies both.'
 tags = ['Play', 'Trust', 'Winning']
 date = 2024-05-25T20:00:00-07:00
 draft = false

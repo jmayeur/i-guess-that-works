@@ -7,6 +7,8 @@ theme = "hugo-clarity"
 [params]
   title_short = "It Works"
   description = "Musings by Jeff Mayeur on Learning and Working in Technology"
+  author = "Jeff Mayeur"
+  keywords =['Technology', 'Learning', 'Play']
 
 DefaultContentLanguage = "en"
 # [languages]

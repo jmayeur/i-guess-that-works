@@ -1,6 +1,7 @@
 +++
 author = 'Jeff Mayeur'
 title = 'Where Is Hugo'
+keywords = ['Hugo', 'Templates', 'DNS']
 description = 'Being creative is the key to getting things done'
 summary = 'Why a TXT DNS Record is both necessary and fun when it comes to using a custom domain name for this blog'
 tags = ['Hugo', 'DSL', 'DNS', 'TXT Record', 'Azure Static Web Apps', 'Domain Registrar', 'Julia Evans', 'Markdown', 'Name Servers']

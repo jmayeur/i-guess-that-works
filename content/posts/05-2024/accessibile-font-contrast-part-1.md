@@ -1,6 +1,8 @@
 +++
 author = 'Jeff Mayeur'
 title = 'Accessible Font Contrast Part 1'
+keywords = ['Accessibility', 'Fonts', 'Contrast']
+description = 'Part 1 of working through font contrast and accessibility.'
 tags = ['Accessibility', 'color-contrast', 'WCAG 2.1 (AA)']
 date = 2024-05-22T17:00:00-07:00
 draft = false

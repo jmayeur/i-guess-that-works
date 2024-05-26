@@ -1,6 +1,7 @@
 +++
 author = 'Jeff Mayeur'
 title = 'It Starts Here'
+keywords = ['Hugo', 'Blogging']
 description = "A place to drop some notes on what I've learned"
 tags = ['Hugo', 'DSL']
 date = 2024-05-18T20:00:00-07:00

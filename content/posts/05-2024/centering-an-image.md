@@ -1,6 +1,8 @@
 +++
 author = 'Jeff Mayeur'
 title = 'Centering an Image'
+keywords = ['Hugo', 'Templates', 'Shortcodes']
+description = 'Working through centering an image using Hugo Shortcodes'
 tags = ['Hugo', 'Templates', 'Debuilding']
 date = 2024-05-24T17:00:00-07:00
 summary="Learning how to center an image with Hugo."
