@@ -2,7 +2,7 @@
 author = 'Jeff Mayeur'
 title = 'Sidebar x002 - Play'
 tags = ['Play', 'Trust', 'Winning']
-date = 2024-05-25T19:00:00-07:00
+date = 2024-05-25T20:00:00-07:00
 draft = true
 +++
 
