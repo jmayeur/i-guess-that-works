@@ -4,8 +4,8 @@ title = 'Abstract Front Matter'
 keywords = ['Front Matter', 'Hugo']
 description = 'Figuring out what the abstract param is for'
 tags = ['Abstract', 'Front Matter', 'Hugo']
-date = 2024-05-27T14:00:00-07:00
-draft = true
+date = 2024-05-27T12:00:00-07:00
+draft = false
 +++
 
 # Parade of Params
