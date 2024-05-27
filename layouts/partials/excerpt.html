@@ -18,8 +18,6 @@
           {{- $summary := ((delimit (findRE "(?s)(<p.*?>.*?</p>)" .Content) "[&hellip;] ") | plainify | truncate (default 200 $.Site.Params.summary_length) (default " &hellip;" $.Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
           {{- if .Params.summary }}
             {{- $summary = .Params.summary }}
-          {{- else if .Params.abstract }}
-            {{ $summary = .Params.abstract }}  
           {{- end }}
           {{ if not ( strings.Contains $summary "<p>" ) }}
             <p>{{ $summary | markdownify }}</p>
