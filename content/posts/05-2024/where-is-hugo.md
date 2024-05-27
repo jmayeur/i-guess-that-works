@@ -21,11 +21,11 @@ It will take a few rambling posts to get there, but this one will cover a bit of
 
 ### Key Pieces
 - [Domain Registrar](https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/)
-> Used to register and manage a Domain. In this case I've registered iguessthisworks.com allowing the management of DNS Records for it
+> Used to register and manage a Domain. In this case I've registered iguessthatworks.com allowing the management of DNS Records for it
 - [DNS Records](https://www.cloudflare.com/learning/dns/dns-records/)
-> A table of data about a Domain, including details such as where to look for iguessthisworks.com 
+> A table of data about a Domain, including details such as where to look for iguessthatworks.com 
 - [(NS) Nameserver Records](https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/)
-> Used to lookup who is the authoritative keeper of where to find the pot of gold at the end of the iguessthisworks.com 
+> Used to lookup who is the authoritative keeper of where to find the pot of gold at the end of the iguessthatworks.com 
 - Truck sized -well-I-guess-we-can-
 > The [TXT](https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/) DNS Record is a way to associate a block of text with a Domain. Originally designed to be read by humans, it's become a way to perform a secret handshake between a [Domain Registrar](https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/) and a [Host](https://azure.microsoft.com/en-us/products/app-service/static)
 

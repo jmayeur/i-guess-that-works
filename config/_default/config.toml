@@ -12,6 +12,7 @@ theme = "hugo-clarity"
   author = "Jeff Mayeur"
   keywords =['Technology', 'Learning', 'Play']
   numberOfTagsShown = 20
+  codeMaxLines = 7
 
 DefaultContentLanguage = "en"
 # [languages]
@@ -21,18 +22,21 @@ DefaultContentLanguage = "en"
 # config/_default/menus/menu.xx.toml
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 [[module.mounts]]
-source = 'static'
-target = 'static'
+  source = 'static'
+  target = 'static'
 [[module.mounts]]
-source = 'images'
-target = 'static/images'
-
-codeMaxLines = 7
+  source = 'images'
+  target = 'static/images'
