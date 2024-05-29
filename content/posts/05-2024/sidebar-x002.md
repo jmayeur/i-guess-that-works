@@ -5,7 +5,7 @@ keywords = ['Play', 'Trust', 'Learning', 'Winning']
 description = 'Thoughts on playing, trusting and being a team member or leader that amplifies both.'
 tags = ['Play', 'Trust', 'Winning']
 categories = ['Play']
-series = ['Ramblings']
+series = 'Ramblings'
 date = 2024-05-25T20:00:00-07:00
 draft = false
 +++

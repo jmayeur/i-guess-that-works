@@ -4,8 +4,8 @@ title = 'Categories & Series Front Matter'
 keywords = ['Hugo', 'Front Matter']
 description = "A wrap on the Front Matter classifications with Categories & Series"
 tags = ['Hugo', 'Front Matter', 'Series', 'Categories']
-categories = ['Taxonomies']
-series = ['Customizing Front Matter']
+categories = 'Taxonomies'
+series = 'Customizing Front Matter'
 date = 2024-05-28T20:00:00-07:00
 draft = false
 +++
@@ -30,7 +30,7 @@ keywords = ['Hugo', 'Front Matter']
 description = "A wrap on the Front Matter classifications with Categories & Series"
 tags = ['Hugo', 'Front Matter', 'Series', 'Categories']
 categories = ['Taxonomies']
-series = ['Customizing Front Matter']
+series = 'Customizing Front Matter'
 date = 2024-05-28T20:00:00-07:00
 draft = false
 +++

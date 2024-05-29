@@ -5,7 +5,7 @@ keywords = ['Accessibility', 'Fonts', 'Contrast']
 description = 'Part 2 of working through font contrast and accessibility.'
 tags = ['Accessibility', 'color-contrast', 'WCAG 2.1 (AA)', 'SASS', 'DSL']
 categories = ['Accessibility', 'Technical']
-series = ['Font Contrast']
+series = 'Font Contrast'
 date = 2024-05-23T16:00:00-07:00
 draft = false
 +++

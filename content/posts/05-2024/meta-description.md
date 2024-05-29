@@ -5,7 +5,7 @@ keywords = ['Accessibility', 'Front Matter', 'Hugo']
 description = 'Standardizing how meta tag data is set and flows through the system'
 tags = ['Accessibility', 'Front Matter', 'Hugo']
 categories = ['Taxonomies', 'Accessibility']
-series = ['Customizing Front Matter']
+series = 'Customizing Front Matter'
 date = 2024-05-26T14:00:00-07:00
 draft = false
 +++
