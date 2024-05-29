@@ -4,6 +4,7 @@ title = 'A Small Change'
 keywords = ['Estimation', 'Accessibility']
 description = 'Get things done is important, but do not sacrifice the good for the quick'
 tags = ['Estimation', 'Accessibility']
+categories = ['Accessibility']
 date = 2024-05-21T17:00:00-07:00
 draft = false
 +++

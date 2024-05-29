@@ -5,6 +5,7 @@ keywords = ['Hugo', 'Templates', 'Shortcodes']
 description = 'Working through centering an image using Hugo Shortcodes'
 tags = ['Hugo', 'Templates', 'Debuilding']
 date = 2024-05-24T17:00:00-07:00
+categories = ['Hugo', 'Technical']
 summary="Learning how to center an image with Hugo."
 draft = false
 +++

@@ -4,6 +4,8 @@ title = 'Sidebar x001 - On Learning'
 keywords = ['Problem-Solving', 'Learning']
 description = 'Thoughts on being right, solving problems and being okay not knowing'
 tags = ['Mistakes', 'Learning', 'Questions']
+categories = ['Learning']
+series = ['Ramblings']
 date = 2024-05-20T19:00:00-07:00
 draft = false
 +++

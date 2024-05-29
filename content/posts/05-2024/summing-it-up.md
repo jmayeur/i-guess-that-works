@@ -4,6 +4,8 @@ title = 'Summing it up'
 keywords = ['Hugo', 'Templates', 'Go']
 description = "A brief dive into Hugo's structure and it's templates"
 tags = ['Hugo', 'DSL', 'Templates', 'Go', 'Hugo Summaries']
+categories = ['Taxonomies']
+series = ['Customizing Front Matter']
 date = 2024-05-19T20:00:00-07:00
 draft = false
 +++

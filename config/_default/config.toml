@@ -11,8 +11,9 @@ theme = "hugo-clarity"
   description = "Musings by Jeff Mayeur on Learning and Working in Technology"
   author = "Jeff Mayeur"
   keywords =['Technology', 'Learning', 'Play']
-  numberOfTagsShown = 20
+  numberOfTagsShown = 15
   codeMaxLines = 7
+  enableSearch = true
 
 DefaultContentLanguage = "en"
 # [languages]
