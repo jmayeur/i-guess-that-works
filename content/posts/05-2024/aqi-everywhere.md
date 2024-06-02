@@ -2,7 +2,7 @@
 author = 'Jeff Mayeur'
 title = 'AQI Everywhere'
 keywords = ['AQI', 'Raspberry Pi', 'Sensors']
-description = 'Seeing if I can get the home page to an 100% accessible'
+description = 'An overview of a home AQI Sensor setup'
 tags = ['AQI', 'Raspberry Pi', 'Sensors']
 categories = ['Raspberry Pi']
 series = 'AQI At Home'
