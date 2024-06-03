@@ -14,7 +14,7 @@ draft = false
 ## Hobby Horses
 I'm a hobbyist at best when it comes to [Raspberry Pi](https://www.raspberrypi.com). I have a dozen or so doing various tasks around the house from a [RetroPie](https://retropie.org.uk) to play [Duke Nukem](https://en.wikipedia.org/wiki/Duke_Nukem) to a [PiHole](https://pi-hole.net) to limit the prying eyes of the web-ad-media-muck, to basic things like a clock/message board, hubs for smart-ish devices like rooted [OpenMiko Cameras](https://github.com/openmiko/openmiko), or photo frames.
 
-I've had a lot of fun just goofing around with the Pi's and [Arduino](https://www.arduino.cc), and ESP8266 boards, but the most interesting thing for me has been AQI Sensors.  I got starting with the [Enviro+](https://shop.pimoroni.com/products/enviro?variant=31155658457171) and a [PiZero WH](https://www.adafruit.com/product/3708) and most importantly a [Plantower PMS5003(https://www.adafruit.com/product/3686) laser Particulate Matter Counter.
+I've had a lot of fun just goofing around with the Pi's and [Arduino](https://www.arduino.cc), and ESP8266 boards, but the most interesting thing for me has been AQI Sensors.  I got starting with the [Enviro+](https://shop.pimoroni.com/products/enviro?variant=31155658457171) and a [PiZero WH](https://www.adafruit.com/product/3708) and most importantly a [Plantower PMS5003](https://www.adafruit.com/product/3686) laser Particulate Matter Sensor.
 {{% centerimage src="/images/aqi-everywhere/enviroplus.png" alt="Image of an Enviro plus AQI monitor" title="AQI Monitor" %}}
 
 ## Data for Everyone
@@ -24,7 +24,7 @@ A few caveats. The data that's being read by the sensor that I have inside & out
 {{% centerimage src="/images/aqi-everywhere/readout.png" alt="Display of Indoor and Outdoor AQI and Temperature" title="Visualize It" %}}
 
 ## What Am I Looking At
-A bit about AQI So underneath this display, there is a bit of math. It intakes the [PM 2.5 particulate matter data](https://ww2.arb.ca.gov/resources/inhalable-particulate-matter-and-health#:~:text=Fine%20particulate%20matter%20is%20defined,comprises%20a%20portion%20of%20PM10.) from the PMS 5003 sensor, and applies this [calculation](https://forum.airnowtech.org/t/the-aqi-equation-2015-obsolete-on-may-6th-2024/169) to create an AQI. That AQI is then compared with a set of [ranges](https://www.airnow.gov/sites/default/files/2018-04/aqi_brochure_02_14_0.pdf) to determine how safe the air is to breath or exercise in.
+A bit about AQI So underneath this display, there is a bit of math. It intakes the [PM 2.5 particulate matter data](https://ww2.arb.ca.gov/resources/inhalable-particulate-matter-and-health#:~:text=Fine%20particulate%20matter%20is%20defined,comprises%20a%20portion%20of%20PM10.) from the PMS5003 sensor, and applies this [calculation](https://forum.airnowtech.org/t/the-aqi-equation-2015-obsolete-on-may-6th-2024/169) to create an AQI. That AQI is then compared with a set of [ranges](https://www.airnow.gov/sites/default/files/2018-04/aqi_brochure_02_14_0.pdf) to determine how safe the air is to breath or exercise in.
 
 This UI displays the calculated AQI, but it also uses color queues to help indicate what's going on. It's a pretty basic system. I've played around with a bunch of [web UIs](https://github.com/jmayeur/outdoor-aqi/tree/main/web) to surface this data, but I've found this UI, which is displayed on a [Pimoroni HyperPixel](https://www.adafruit.com/product/3578).
 {{% centerimage src="/images/aqi-everywhere/aqi-ranges.png" alt="Table of AQI Ranges from Good to Hazardous" title="Ranges" %}}
