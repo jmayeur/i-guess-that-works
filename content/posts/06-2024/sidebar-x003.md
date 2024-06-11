@@ -7,7 +7,7 @@ tags = ['Purpose', 'Audience', 'Measurement']
 categories = ['Purpose']
 series = 'Ramblings'
 date = 2024-06-09T20:00:00-07:00
-draft = true
+draft = false
 +++
 # Can I Help You?
 
