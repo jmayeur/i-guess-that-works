@@ -3,6 +3,8 @@ node_modules
 dist
 tmp
 
+.vscode
+
 public/
 resources/_gen/
 
