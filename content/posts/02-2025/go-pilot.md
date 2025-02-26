@@ -46,7 +46,7 @@ It's true I am no where near competent in Go. There's no way I can assert that t
 I'm reading the book [FilterWorld](https://www.penguinrandomhouse.com/books/695902/filterworld-by-kyle-chayka/) and there are parallels around the flattening of languages, and the stagnation of development practices. When the predominate algorithms are trained on what's already been written, and developers are pressing tab with alacrity. There's the risk of re-enforcing the suboptimal, the stale or the otherwise limited approaches of the past.
 
 All of this leaves me with questions:
-- Are Programming Languages going to Stagnate?
+- Are Programming Languages going to stagnate?
 - Will the value each language intrinsically has be reduced by the ability to churn out working code without understanding the what how why it does what it does?
 - With the push for productivity above all else, how do I remain curious enough to ask why?
 
