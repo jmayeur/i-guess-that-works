@@ -1,6 +1,6 @@
 +++
 author = 'Jeff Mayeur'
-title = 'Go Play'
+title = 'IProvider'
 keywords = ['Java', 'C#', 'Patterns', 'Software Architecture']
 description = 'Thoughts on playing, trusting and being a team member or leader that amplifies both.'
 tags = ['Software Architecture']
