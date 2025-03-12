@@ -2,13 +2,14 @@
 author = 'Jeff Mayeur'
 title = 'Go-Pilot?'
 keywords = ['GOLANG']
-description = 'Thoughts on playing, trusting and being a team member or leader that amplifies both.'
+description = 'Thoughts on learning new programming languages.'
 tags = ['GOLANG']
 categories = ['GOLANG']
-series = 'Ramblings'
+series = 'GOLANG'
 date = 2025-02-23T06:00:00-08:00
 draft = false
 +++
+
 # Okay GO
 
 ## Finding Footing

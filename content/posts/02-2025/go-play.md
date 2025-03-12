@@ -2,7 +2,7 @@
 author = 'Jeff Mayeur'
 title = 'Go Play'
 keywords = ['GOLANG']
-description = 'Thoughts on playing, trusting and being a team member or leader that amplifies both.'
+description = 'Thoughts on errors in GOLANG.'
 tags = ['GOLANG']
 categories = ['GOLANG', 'Best Practices']
 series = 'GOLANG'
