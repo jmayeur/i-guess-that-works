@@ -10,7 +10,9 @@ date = 2025-02-25T06:00:00-08:00
 draft = false
 +++
 
-# REPL
+# What's in a Mistake?
+
+## REPL
 
 [go.dev](https://go.dev/play/p/TaAQ_1Y2f9U) is a pseudo "read, eval, print, loop" (REPL) environment that allows you to quickly jot out some Go and execute it. REPLs can be helpful when you are just starting to work with a new language. They let you experiment with the language itself without the overhead of creating a full project.
 
