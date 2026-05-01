@@ -136,7 +136,7 @@
   &_close
     display: none
 
-.content, .footer
+.content
   padding: 1.5rem
   @media screen and (min-width: 1441px)
     padding: 1.5rem 0
@@ -150,8 +150,15 @@
   background: var(--footer-bg)
   margin-top: 2rem
   font-size: 0.9rem
+  width: 100vw
+  position: relative
+  left: 50%
+  right: 50%
+  margin-left: -50vw
+  margin-right: -50vw
   &_inner
     @include content
+    padding: 1.5rem
     display: grid
     grid-template-columns: 4rem 1fr
     align-items: center
