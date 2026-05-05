@@ -6,7 +6,7 @@ description = "On whether engineering is still fun in the age of AI agents, and 
 tags = ['career', 'learning', 'engineering']
 categories = ['career', 'learning']
 date = 2026-05-04T07:00:00-07:00
-draft = true
+draft = false
 +++
 
 I’ve had a few conversations over the past week that circled around the shifting or diminishing rewards of being a developer in the age of agents. If the fun of coding & debugging is shifted into agent loops, what’s the rewarding part of the job now? Answers varied, but themes like

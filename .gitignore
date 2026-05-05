@@ -13,3 +13,5 @@ hugo.linux
 hugo.darwin
 
 static/.DS_Store
+
+__drafts/
