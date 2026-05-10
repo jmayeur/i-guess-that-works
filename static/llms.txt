@@ -1,0 +1,34 @@
+# I Guess That Works — iguessthatworks.com
+
+> Musings by Jeff Mayeur on Learning and Working in Technology
+
+A personal blog by Jeff Mayeur — a software engineer and engineering leader with 20+ years of experience across web, data, and operations-heavy environments. Posts cover hands-on technical exploration, engineering leadership, career reflection, and the craft of building software.
+
+## Key Content Areas
+
+- **Agentic AI & Tooling** — experiences building and deploying with Claude, BMAD, and Cloudflare; reflections on agentic development workflows and where they fall short
+- **Engineering Leadership** — thoughts on team building, trust, decision-making, and what it means to lead in technology
+- **Technical Exploration** — Raspberry Pi / hardware projects (AQI sensors, BME280, PMS5003), Go, Hugo, Cloudflare Pages, accessibility, and web fundamentals
+- **Career & Reflection** — honest writing about career transitions, motivation, and working in the industry
+
+## Selected Posts
+
+- https://iguessthatworks.com/posts/05-2026/agentic-build-learnings/ — What it was like building and deploying a small app using a fully agentic flow (BMAD + Claude on Cloudflare Pages)
+- https://iguessthatworks.com/posts/05-2026/codifier-in-chief/ — Reflections on AI's role in shaping how engineers write and communicate code
+- https://iguessthatworks.com/posts/05-2026/hind-sites/ — A project exploring microsites and what the web could be
+- https://iguessthatworks.com/posts/05-2026/is-it-still-fun/ — Personal reflection on maintaining passion for the craft
+- https://iguessthatworks.com/posts/04-2026/today-last-day-nike/ — Farewell post after leaving Nike after a significant tenure
+- https://iguessthatworks.com/posts/03-2025/i-provider/ — Exploration of the I-Provider pattern in software architecture
+- https://iguessthatworks.com/posts/02-2025/go-pilot/ — First steps learning Go
+- https://iguessthatworks.com/posts/05-2024/getting-to-100/ — Getting a site to a Lighthouse score of 100
+
+## About the Author
+
+- https://iguessthatworks.com/about/ — Bio, background, and how Jeff approaches work
+- Resume and professional profile: https://jmayeur.dev
+
+## Site
+
+- Full post archive: https://iguessthatworks.com/posts/
+- RSS feed: https://iguessthatworks.com/index.xml
+- Sitemap: https://iguessthatworks.com/sitemap.xml
