@@ -7,7 +7,7 @@ tags = ['engineering', 'web', 'learning']
 categories = ['engineering', 'learning']
 series = 'The World of MicroSites'
 date = 2026-05-13T07:00:00-07:00
-draft = true
+draft = false
 +++
 
 ## The Way Back Machine
