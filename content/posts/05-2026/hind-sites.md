@@ -5,7 +5,7 @@ keywords = ['engineering', 'web', 'microsites', 'hugo', 'vibe-coding', 'cloudfla
 description = "A series on building and hosting small static and interactive web experiences — what worked, what didn't, and what I'd do differently."
 tags = ['engineering', 'web', 'learning']
 categories = ['engineering', 'learning']
-series = ['The World of MicroSites']
+series = 'The World of MicroSites'
 date = 2026-05-08T07:00:00-07:00
 draft = false
 +++
