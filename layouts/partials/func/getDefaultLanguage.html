@@ -1,12 +1,12 @@
-{{ $defaultLanguage := site.LanguageCode }}
-{{ if gt (len site.Languages) 1 }}
-  {{ $languages := site.Languages }}
+{{ $defaultLanguage := site.Language.Locale }}
+{{ if hugo.IsMultilingual }}
+  {{ $sites := hugo.Sites }}
   {{ $order := slice }}
-  {{ range $languages }}
-    {{ $order = append .Weight $order }}
+  {{ range $sites }}
+    {{ $order = append .Language.Weight $order }}
   {{ end }}
   <!-- Assumes the default language will have the lowest weight -->
   {{ $defaultLanguageIndex := index (sort $order) 0 }}
-  {{ $defaultLanguage = index (where $languages "Weight" $defaultLanguageIndex) 0 }}
+  {{ $defaultLanguage = (index (where $sites "Language.Weight" $defaultLanguageIndex) 0).Language }}
 {{ end }}
 {{ return $defaultLanguage }}
