@@ -6,7 +6,7 @@ description = "Notes on the human conditions that create high-leverage individua
 tags = ['engineering', 'best-practices', 'learning', 'AI']
 categories = ['best-practices', 'learning']
 date = 2026-05-18T07:00:00-07:00
-draft = true
+draft = false
 +++
 
 I don't have a ton to add to the current spurge of Super-IC content. I have always been a bit dubious of the long term value of the 10x engineer. That type of mindest is critical in the world of the startup, but I have thoughts-and-feelings about how it plays in larger enterprises.
