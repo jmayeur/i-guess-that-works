@@ -9,7 +9,7 @@ date = 2026-05-18T07:00:00-07:00
 draft = false
 +++
 
-I don't have a ton to add to the current spurge of Super-IC content. I have always been a bit dubious of the long term value of the 10x engineer. That type of mindest is critical in the world of the startup, but I have thoughts-and-feelings about how it plays in larger enterprises.
+I don't have a ton to add to the current spurge of Super-IC content. I have always been a bit dubious of the long term value of the 10x engineer. That type of mindset is critical in the world of the startup, but I have thoughts-and-feelings about how it plays in larger enterprises.
 
 Instead I'm curious to know what actually makes most of us better. We all have days or hours where we are in a flow state - fully in go mode. Moments where we deliver more measurable value; more fully grasp the problem we are trying to address; where the churn is low and the output is high.
 
