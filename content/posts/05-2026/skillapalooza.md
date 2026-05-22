@@ -23,4 +23,8 @@ The industry is shifting too fast at the head and likely too slowly at the tail.
 
 I don’t bet, mostly because I can’t guarantee a win, but if I did, I would put it all on the most important skill being the ability to learn new things. That’s not revelatory by any means, but core to learning is doing, and for me, I need a problem driving me to do. In the past, I haven’t always pursued personal projects because I assumed no one would need or want to use them. That was my loss. Over the past few weeks, I’ve just been building. No one needs to see the analysis of the air quality data I’m capturing locally, but I do need to practice how to adapt the tools I have to the problems I want to solve.
 
+![Major scale mode diagram for perfect fourths guitar tuning (EADGCF), showing scale boxes and triad shape patterns across the fretboard.](/images/skillapalooza/major-scale-modes-for-perfect-fourths-tuning.png)
+
+_Image source and license: "Major Scale Modes for Perfect Fourths Tuning," by Nathan Bushman, via Wikimedia Commons at [File:Major Scale Modes for Perfect Fourths Tuning.png](https://commons.wikimedia.org/wiki/File:Major_Scale_Modes_for_Perfect_Fourths_Tuning.png). Licensed under [Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0)](https://creativecommons.org/licenses/by-sa/3.0/deed.en)._
+
 These aren’t enterprise-scale problems, and I’m not futzing with OLAP Cubes to report on billions of data points in real time. These are small, repetitive, and sometimes a little silly, but they are practice with the instruments. Like scales on the guitar, they’re not a song unto themselves, but they build the adroitness needed to sing.
