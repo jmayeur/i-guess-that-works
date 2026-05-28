@@ -5,7 +5,7 @@ keywords = ['career', 'AI', 'learning', 'resilience', 'tools']
 description = "Reflections on being Resource Unassigned, the noise of AI, and the resilience needed to keep building."
 tags = ['career', 'learning', 'ai', 'resilience']
 categories = ['career', 'learning']
-date = 2026-05-28T07:00:00-07:00
+date = 2026-05-27T07:00:00-07:00
 draft = false
 +++
 
