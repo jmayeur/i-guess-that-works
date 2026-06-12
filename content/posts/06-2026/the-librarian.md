@@ -9,7 +9,7 @@ date = 2026-06-12T07:00:00-07:00
 draft = false
 +++
 
-{{< figure src="/images/the-librarian/Neurodiversity_display_University_of_Otago_Central_Library.jpg" alt="A colorful neurodiversity display inside the University of Otago Central Library" caption="[Neurodiversity display, University of Otago Central Library](https://en.wikipedia.org/wiki/File:Neurodiversity_display_University_of_Otago_Central_Library.jpg)" class="center" >}}
+{{< figure src="/images/the-librarian/Neurodiversity_display_University_of_Otago_Central_Library.jpg" alt="Book display highlighting neurodiverse authors and books about neurodiversity, at University of Otago Central Library" caption="\"Book display highlighting neurodiverse authors and books about neurodiversity, at University of Otago Central Library\" by [DrThneed](https://commons.wikimedia.org/wiki/File:Neurodiversity_display_University_of_Otago_Central_Library.jpg), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)" class="center" >}}
 
 A real benefit to this break has been the ability to have a broad range of conversations about work, value, risk, and goals. From open ended musings on what the next 20 years might look like, to tactical dives into what really constitutes value creation in the agentic workplace.
 
