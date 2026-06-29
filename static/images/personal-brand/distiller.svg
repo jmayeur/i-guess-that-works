@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" role="img" aria-label="Distiller — a flat copper alembic still icon">
+  <!-- swan-neck condenser / lyne arm -->
+  <path d="M78 34 V20 C78 8 98 6 118 6 C146 6 168 14 168 40 V104" fill="none" stroke="#C17A4E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- collection vessel -->
+  <path d="M143 108 H193 V158 Q193 168 183 168 H153 Q143 168 143 158 Z" fill="#C17A4E"/>
+  <ellipse cx="168" cy="108" rx="25" ry="6" fill="#8E5230"/>
+  <rect x="143" y="134" width="50" height="6" fill="#8E5230"/>
+  <path d="M193 150 h9 v7 h-9 z" fill="#8E5230"/>
+  <!-- left handle -->
+  <path d="M30 120 q-14 14 0 28" fill="none" stroke="#8E5230" stroke-width="6" stroke-linecap="round"/>
+  <!-- pot body -->
+  <circle cx="78" cy="132" r="50" fill="#C17A4E"/>
+  <!-- base -->
+  <path d="M58 176 H98 L92 190 H64 Z" fill="#8E5230"/>
+  <!-- collar -->
+  <path d="M54 86 H102 L97 100 H59 Z" fill="#8E5230"/>
+  <!-- onion dome -->
+  <path d="M56 88 C46 66 58 56 68 50 C74 46 76 40 78 32 C80 40 82 46 88 50 C98 56 110 66 100 88 Z" fill="#C17A4E"/>
+  <!-- neck joint -->
+  <circle cx="78" cy="32" r="5" fill="#8E5230"/>
+  <!-- gauge -->
+  <circle cx="66" cy="66" r="9" fill="#8E5230"/>
+  <circle cx="66" cy="66" r="4" fill="#C17A4E"/>
+</svg>
