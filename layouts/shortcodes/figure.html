@@ -1,0 +1,33 @@
+{{/* Override Hugo's built-in figure shortcode to wrap <img> in <picture>.
+     The hugo-clarity JS (largeImages) uses image.parentNode.parentNode to find
+     the figure element. That traversal assumes figure > picture > img; without
+     the <picture> wrapper it climbs to .post_content and applies image-scalable
+     to the entire article body. */}}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- if .Get "link" -}}
+    <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+  {{- end -}}
+  <picture>
+    <img
+      src="{{ .Get "src" }}"
+      {{- with .Get "alt" }} alt="{{ . }}"{{ end }}
+      {{- with .Get "width" }} width="{{ . }}"{{ end }}
+      {{- with .Get "height" }} height="{{ . }}"{{ end }}
+      loading="lazy"
+    />
+  </picture>
+  {{- if .Get "link" }}</a>{{ end -}}
+  {{- if or (.Get "title") (.Get "caption") (.Get "attr") -}}
+    <figcaption>
+      {{- with .Get "title" }}<h4>{{ . }}</h4>{{ end -}}
+      {{- if or (.Get "caption") (.Get "attr") -}}
+        <p>
+          {{- .Get "caption" | markdownify -}}
+          {{- with .Get "attrlink" }} <a href="{{ . }}">{{ end -}}
+          {{- .Get "attr" | markdownify -}}
+          {{- if .Get "attrlink" }}</a>{{ end -}}
+        </p>
+      {{- end -}}
+    </figcaption>
+  {{- end -}}
+</figure>
