@@ -1,0 +1,7 @@
+<script>
+/* Hide decorative heading-anchor icon links from screen readers and keyboard nav */
+document.querySelectorAll('a.link.icon').forEach(function(el) {
+  el.setAttribute('aria-hidden', 'true');
+  el.setAttribute('tabindex', '-1');
+});
+</script>
