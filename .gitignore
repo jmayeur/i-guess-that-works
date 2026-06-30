@@ -15,3 +15,5 @@ hugo.darwin
 static/.DS_Store
 
 __drafts/
+
+.a11y-last-scan-commit
