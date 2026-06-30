@@ -1,0 +1,27 @@
+#!/bin/sh
+# WCAG accessibility scan — blocks commits that introduce a11y violations in post content.
+#
+# Install: cp .github/hooks/pre-commit .git/hooks/pre-commit
+# (or: ln -sf ../../.github/hooks/pre-commit .git/hooks/pre-commit from the repo root)
+#
+# Requires node + deps: cd .github/scripts && npm install
+
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+SCAN_SCRIPT="$REPO_ROOT/.github/scripts/a11y-scan.mjs"
+NODE_MODULES="$REPO_ROOT/.github/scripts/node_modules/puppeteer"
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "a11y pre-commit: node not found — skipping accessibility scan."
+  exit 0
+fi
+
+if [ ! -d "$NODE_MODULES" ]; then
+  echo "a11y pre-commit: puppeteer not installed."
+  echo "  Run: cd .github/scripts && npm install"
+  echo "  Skipping accessibility scan."
+  exit 0
+fi
+
+node "$SCAN_SCRIPT"

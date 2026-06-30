@@ -47,7 +47,17 @@ Move or copy draft content into `content/posts/YYYY-MM/post-name.md` with a prop
 
 7. Save the new file and confirm it renders as expected.
 
-8. Optionally keep the original draft intact and use it as the source of truth for future edits.
+8. Run the accessibility scan on the new post. Replace `YYYY-MM/post-name` with the actual post path:
+
+   ```bash
+   node .github/scripts/a11y-scan.mjs /posts/YYYY-MM/post-name/
+   ```
+
+   - If `node_modules` is not yet installed: `cd .github/scripts && npm install`
+   - If the scan **passes**: proceed.
+   - If the scan **fails**: stop. Report the violations to the user and do not proceed to commit until they are resolved. Do not attempt to auto-fix.
+
+9. Optionally keep the original draft intact and use it as the source of truth for future edits.
 
 ## Example
 
