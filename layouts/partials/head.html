@@ -19,7 +19,7 @@
     {{- $title = .Title }}
   {{- end }}
 {{- end }}
-<title>{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}</title>
+<title>{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}{{ if .IsHome }} — {{ $params.author }}{{ end }}</title>
 <meta charset="utf-8">
 {{ if .Params.noindex }}
 <meta name="robots" content="noindex" />
@@ -34,6 +34,7 @@
 {{- end }}
 {{- partial "opengraph" . }}
 {{- partialCached "favicon" . }}
+{{- partial "schema-person" . }}
 <link rel="canonical" href="{{ .Permalink }}">
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

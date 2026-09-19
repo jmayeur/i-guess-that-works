@@ -2,6 +2,7 @@ baseURL = 'https://iguessthatworks.com/'
 # title = 'Working'
 # canonifyurls = true
 copyright = "Jeff Mayeur"
+enableRobotsTXT = true
 paginate = 10
 theme = "hugo-clarity"
 
@@ -16,6 +17,13 @@ theme = "hugo-clarity"
   enableSearch = true
   blogDir = "posts"
   fallBackOgImage = "images/screenshot.png"
+  authorDescription = "Jeff Mayeur is a software, data and operations engineer and engineering leader, building web and data systems since the turn of the century."
+  authorImage = "images/about/jeff.png"
+  authorSameAs = [
+    "https://www.linkedin.com/in/jeff-mayeur/",
+    "https://github.com/jmayeur",
+    "https://jmayeur.dev"
+  ]
 
 DefaultContentLanguage = "en"
 # [languages]

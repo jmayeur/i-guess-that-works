@@ -1,7 +1,7 @@
 +++
 author = 'Jeff Mayeur'
-title = 'About'
-description = "A bit about Me"
+title = 'About Jeff Mayeur'
+description = "Jeff Mayeur — software, data and operations engineer and engineering leader. Web and data development since the turn of the century, writing here about learning and working in technology."
 date = 2024-05-23T16:00:00-07:00
 draft = false
 +++
@@ -9,7 +9,7 @@ draft = false
 ## Bio
 {{% centerimage src="/images/about/jeff.png" alt="Photo of Me, Jeff Mayeur" title="Me" %}}
 
-I build software, teams, and momentum across web, data, and operations-heavy environments.
+I'm Jeff Mayeur. I build software, teams, and momentum across web, data, and operations-heavy environments.
 
 <p>
   <a class="button button_translucent" href="https://jmayeur.dev" target="_blank" rel="noopener noreferrer">

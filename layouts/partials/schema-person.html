@@ -1,0 +1,64 @@
+{{- /* Person + WebSite structured data.
+
+     Emitted only on the homepage and /about/ so a single canonical Person
+     entity is declared once per crawl path. The @id is stable across both
+     pages, which is what lets a search engine treat the sameAs profiles
+     (LinkedIn, GitHub, resume) as the same person as this site's author. */ -}}
+
+{{- $p := site.Params }}
+{{- $personID := printf "%s#person" site.BaseURL }}
+{{- $aboutURL := printf "%sabout/" site.BaseURL }}
+
+{{- if .IsHome }}
+  {{- $person := dict
+        "@context" "https://schema.org"
+        "@type" "Person"
+        "@id" $personID
+        "name" $p.author
+        "url" $aboutURL
+        "mainEntityOfPage" $aboutURL
+        "description" (default $p.description $p.authorDescription)
+  }}
+  {{- with $p.authorImage }}
+    {{- $person = merge $person (dict "image" (printf "%s%s" site.BaseURL .)) }}
+  {{- end }}
+  {{- with $p.authorSameAs }}
+    {{- $person = merge $person (dict "sameAs" .) }}
+  {{- end }}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict
+      "@context" "https://schema.org"
+      "@type" "WebSite"
+      "@id" (printf "%s#website" site.BaseURL)
+      "url" site.BaseURL
+      "name" site.Title
+      "description" $p.description
+      "inLanguage" (default "en" site.Language.Locale)
+      "author" (dict "@id" $personID)
+      "publisher" (dict "@id" $personID)
+    | jsonify | safeJS }}</script>
+{{- end }}
+
+{{- if eq .RelPermalink "/about/" }}
+  {{- $person := dict
+        "@type" "Person"
+        "@id" $personID
+        "name" $p.author
+        "url" $aboutURL
+        "mainEntityOfPage" $aboutURL
+        "description" (default $p.description $p.authorDescription)
+  }}
+  {{- with $p.authorImage }}
+    {{- $person = merge $person (dict "image" (printf "%s%s" site.BaseURL .)) }}
+  {{- end }}
+  {{- with $p.authorSameAs }}
+    {{- $person = merge $person (dict "sameAs" .) }}
+  {{- end }}
+<script type="application/ld+json">{{ dict
+      "@context" "https://schema.org"
+      "@type" "ProfilePage"
+      "url" $aboutURL
+      "name" (printf "About %s" $p.author)
+      "mainEntity" $person
+    | jsonify | safeJS }}</script>
+{{- end }}
