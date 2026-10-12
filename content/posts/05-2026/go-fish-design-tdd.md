@@ -1,4 +1,14 @@
-# Go Fish — TDD Class Design
++++
+author = 'Jeff Mayeur'
+title = "Go Fish — TDD Class Design"
+description = "Companion to Go Fish: TDD and Agentic Code — the TDD kata-style class design."
+date = 2026-05-28T09:00:00-07:00
+draft = false
+[build]
+  list = 'never'
+[sitemap]
+  disable = true
++++
 
 Inspired by the Bowling Game Kata approach: let the tests drive you toward the simplest structure
 that works. Start with the `Game` and let `Card`, `Deck`, `Hand`, and `Player` emerge only when

@@ -1,4 +1,14 @@
-# Go Fish — Design Document (Pseudocode)
++++
+author = 'Jeff Mayeur'
+title = "Go Fish — Design Document (Pseudocode)"
+description = "Companion to Go Fish: TDD and Agentic Code — the non-TDD pseudocode design."
+date = 2026-05-28T09:00:00-07:00
+draft = false
+[build]
+  list = 'never'
+[sitemap]
+  disable = true
++++
 
 ## Overview
 
