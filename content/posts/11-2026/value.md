@@ -15,7 +15,7 @@ I've been in dozens of conversations over the last few months where the focus fa
 
 I'm also squarely in the agent-first camp. I spec - it types. So why would it be important for me to feel good about a process; about the steps, stops and loops? Certainly, if I'm going to be the assayer of shipped code, it's reasonable to want some control, but does that control actually contribute to the value at a rate reasonable to its cost?
 
-OpenSpec generates a lot of non-code output, way beyond the spec itself. The [tasks](https://github.com/jmayeur/gameclock/blob/main/openspec/changes/archive/2026-11-09-panel-bring-up/tasks.md), one of my favorite steps, alone can be thousands of tokens per feature. Add a proposal and design doc on top of the spec itself. That's a lot of tokens - and they get re-parsed at every step as the agent walks through the tasks and checks them off. That's where my 3X comes from.
+OpenSpec generates a lot of non-code output, way beyond the spec itself. The [tasks](https://github.com/jmayeur/gameclock/blob/main/openspec/changes/archive/2026-11-09-panel-bring-up/tasks.md), one of my favorite steps, alone can be thousands of tokens per feature. Add a proposal and design doc on top of the spec itself. That's a lot of tokens - and they get re-parsed at every step as the agent walks through the tasks and checks them off. That's where the token burn comes from.
 
 My assumption has been that it gives me two value paths. First, it allows me to spend more time thinking about the what before building, and second, it leaves a traceable record that can create a solid context base for future work. Anecdotally, I have to say I don't know if those two values actually still hold up.
 
